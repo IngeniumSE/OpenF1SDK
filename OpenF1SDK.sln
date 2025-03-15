@@ -56,8 +56,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenF1SDK.ConsoleSample", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenF1SDK", "libs\OpenF1SDK\OpenF1SDK.csproj", "{7BBA5362-D181-0EFD-631D-DC2A21435C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenF1SDK.Extensions.DependencyInjection", "libs\OpenF1SDK.Extensions.DependencyInjection\OpenF1SDK.Extensions.DependencyInjection.csproj", "{6C28F962-EF31-0B23-78C6-BA2F249FBA0D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,10 +78,6 @@ Global
 		{7BBA5362-D181-0EFD-631D-DC2A21435C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BBA5362-D181-0EFD-631D-DC2A21435C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBA5362-D181-0EFD-631D-DC2A21435C9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C28F962-EF31-0B23-78C6-BA2F249FBA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C28F962-EF31-0B23-78C6-BA2F249FBA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C28F962-EF31-0B23-78C6-BA2F249FBA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C28F962-EF31-0B23-78C6-BA2F249FBA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,7 +89,6 @@ Global
 		{9E95ECB2-C721-4367-B515-25C735D6573B} = {71A838D8-527D-41D1-99B0-611404787F46}
 		{184F7621-79CD-CAC7-FD88-A577041ECA1C} = {44D9A031-6FAD-45B7-A5BE-680E031CD72E}
 		{7BBA5362-D181-0EFD-631D-DC2A21435C9B} = {3D0CADC5-4B71-455C-9CD0-BDB0B3A74B3F}
-		{6C28F962-EF31-0B23-78C6-BA2F249FBA0D} = {3D0CADC5-4B71-455C-9CD0-BDB0B3A74B3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26041282-B1C0-4262-AE2F-DA9CF2480C37}

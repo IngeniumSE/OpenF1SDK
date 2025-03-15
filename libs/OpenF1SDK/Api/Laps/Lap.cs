@@ -13,7 +13,7 @@ public partial class Lap : Model<Lap>
 	/// The UTC starting date and time.
 	/// </summary>
 	[JsonPropertyName("date_start")]
-	public DateTimeOffset DateStart { get; set; }
+	public DateTimeOffset? DateStart { get; set; }
 
 	/// <summary>
 	/// The unique number assigned to an F1 driver (cf. https://en.wikipedia.org/wiki/List_of_Formula_One_driver_numbers#Formula_One_driver_numbers).
